@@ -8,3 +8,12 @@
   </code>
 
 </pre>
+
+<p><h3> Arrow Function </h3> </p>
+<pre>
+  <code>
+    <span>const myFnc = () => {...} </span> //Arrow function
+    <span>function myFnc(){...}</span> //Javascript Function
+  </code>
+
+</pre>
