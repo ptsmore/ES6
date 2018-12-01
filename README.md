@@ -1,4 +1,4 @@
-# ES6
+# React
 
 <p> <h3> Let </h3> only change and declare variable in block scoped </p>
 <pre>
