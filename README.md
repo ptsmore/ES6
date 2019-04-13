@@ -1,5 +1,7 @@
 # React
 
+<b>Codepen:</p> https://codepen.io/phanuwat-thawatrungrote/pen/EOvMmg
+
 <p> <h3> Let </h3> only change and declare variable in block scoped </p>
 <pre>
   <code>
