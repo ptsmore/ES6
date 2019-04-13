@@ -19,3 +19,6 @@
   </code>
 
 </pre>
+
+
+//https://jsbin.com/?html,output to test js
