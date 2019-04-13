@@ -16,6 +16,7 @@
   <code>
     <span>const myFnc = () => {...} </span> //Arrow function
     <span>function myFnc(){...}</span> //Javascript Function
+    <span>const multiply = number => number * 2</span> //Javascript Function
   </code>
 
 </pre>
