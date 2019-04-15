@@ -22,9 +22,9 @@
 </pre>
 
 
-//https://jsbin.com/?html,output to test js
+<p>use https://jsbin.com/?html,output to test js</p>
 
 <h3>Export & Import Module</h3>
 <img scr="hthttps://github.com/ptsmore/React/blob/master/export%26importModule.png"></img>
-
+<img src="https://github.com/ptsmore/SP-ReportViewer/blob/master/PIC/1.PNG"></img>
 
