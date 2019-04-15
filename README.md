@@ -28,3 +28,41 @@
 
 ![ScreenShot](/PIC/ExportImportModule.PNG)
 
+<h3>Class</h3>
+<u>basic</u>
+<pre>
+class Person{
+  constructor(){
+    this.name = 'Test';
+  }
+  printTest(){
+    console.log(this.name);
+  }
+}
+const person = new Person();
+person.printTest();
+</pre>
+
+<u>Extend another class</u>
+<pre>
+class Human{
+  constructor(){
+    this.gender = 'Male';
+  }
+  printGender(){
+    console.log(this.gender);
+  }
+}
+class Person extends Human{
+  constructor(){
+    super(); //must have super class when extends another class
+    this.name = 'Test';
+  }
+  printTest(){
+    console.log(this.name);
+  }
+}
+const person = new Person();
+person.printTest();
+person.printGender();
+</pre>
