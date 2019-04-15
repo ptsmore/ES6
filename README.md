@@ -28,7 +28,7 @@
 
 ![ScreenShot](/PIC/ExportImportModule.PNG)
 
-<h3>Classes</h3>
+<h3>Classes <b>(ES6)</b></h3>
 <u>basic</u>
 <pre>
 class Person{
@@ -47,7 +47,7 @@ person.printTest();
 
 
 
-<u>Extend another class</u>
+<u>Extend another class <b>(ES6)</b></u>
 <pre>
 class Human{
   constructor(){
@@ -74,4 +74,27 @@ person.printGender();
 //the console will show 'test' and 'Male'
 </pre>
 
+<u>Classes,Properties,Methods in <b>(ES7)</b></u> //if test with "jsbin", just change dropdown 'Javascript' to 'ES6/Babel'
+<pre>
+class Human{
+  gender = 'Male';
+  
+  printGender = () => {
+    console.log(this.gender);
+  }
+}
+class Person extends Human{
+  
+    name = 'Test';
+    //gender = 'FeMale'; //if uncomment gender value is FeMale
+  
+  printTest = () => {
+    console.log(this.name);
+  }
+}
+const person = new Person();
+person.printTest();
+person.printGender();
 
+//the console will show 'test' and 'Male'
+</pre>
