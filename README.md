@@ -25,8 +25,6 @@
 <p>use https://jsbin.com/?html,output to test js</p>
 
 <h3>Export & Import Module</h3>
-<img scr="https://github.com/ptsmore/React/blob/master/PIC/ExportImportModule.PNG"></img>
 
-
-
+![ScreenShot](/PIC/ExportImportModule.PNG)
 
