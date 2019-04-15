@@ -24,9 +24,13 @@
 
 <p>use https://jsbin.com/?html,output to test js</p>
 
+==========================================================
+
 <h3>Export & Import Module</h3>
 
 ![ScreenShot](/PIC/ExportImportModule.PNG)
+
+=========================================================
 
 <h3>Classes <b>(ES6)</b></h3>
 <u>basic</u>
@@ -98,3 +102,9 @@ person.printGender();
 
 //the console will show 'test' and 'Male'
 </pre>
+
+ES6 VS ES7
+ES6, defined instances properties (methods and variables) in constructor(). Anything inside class-body was shared and  accessed among all instances. //person{name:'Test',gender:'Male'}
+ES7, anything put inside the class-body is part of the instance.//person{name:'Test',gender:'Male',printGender: f,printTest: f}
+
+====================================================================================================================
