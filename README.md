@@ -1,5 +1,5 @@
 # React
-<img scr="https://github.com/ptsmore/React/blob/master/export%26importModule.png"></img>
+
 <b>Codepen:</p> https://codepen.io/phanuwat-thawatrungrote/pen/EOvMmg
 
 <p> <h3> Let </h3> only change and declare variable in block scoped </p>
@@ -25,6 +25,6 @@
 <p>use https://jsbin.com/?html,output to test js</p>
 
 <h3>Export & Import Module</h3>
-<img scr="https://github.com/ptsmore/React/blob/master/export%26importModule.png"></img>
+<img scr="https://github.com/ptsmore/React/blob/master/exportimportModule.png"></img>
 
 
