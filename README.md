@@ -23,3 +23,8 @@
 
 
 //https://jsbin.com/?html,output to test js
+
+<h3>Export & Import Module</h3>
+<img scr='https://github.com/ptsmore/React/blob/master/export%26importModule.png'/>
+
+
