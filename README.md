@@ -28,7 +28,7 @@
 
 ![ScreenShot](/PIC/ExportImportModule.PNG)
 
-<h3>Class</h3>
+<h3>Classes</h3>
 <u>basic</u>
 <pre>
 class Person{
@@ -41,7 +41,11 @@ class Person{
 }
 const person = new Person();
 person.printTest();
+
+//the console will show 'test' 
 </pre>
+
+
 
 <u>Extend another class</u>
 <pre>
@@ -57,6 +61,7 @@ class Person extends Human{
   constructor(){
     super(); //must have super class when extends another class
     this.name = 'Test';
+    //this.gender = 'FeMale'; //if uncomment gender value is FeMale
   }
   printTest(){
     console.log(this.name);
@@ -65,4 +70,8 @@ class Person extends Human{
 const person = new Person();
 person.printTest();
 person.printGender();
+
+//the console will show 'test' and 'Male'
 </pre>
+
+
